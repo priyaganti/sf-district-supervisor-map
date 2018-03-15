@@ -7,14 +7,53 @@
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap-grid.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 </head>
 <script>
-
+$(document).ready(function(){
+  $('#distMap').maphilight();
+});
 </script>
 <body>
 <header>
   <h1>San Francisco Supervisors by District</h2>
 </header>
+<div>
+  <img src="./img/districtsMap.png" useMap='#test' id="distMap" />
+  <map id="test" name="test">
+    <area shape="poly" alt="" title="district-1" id="dist1"
+    coords="31,427,28,396,28,368,27,346,22,331,27,313,36,298,48,290,60,278,74,273,90,273,107,278,115,280,123,284,131,302,150,303,168,303,167,288,187,288,214,287,240,287,244,298,280,298,294,295,300,295,300,319,319,320,344,320,353,320,353,333,356,351,357,357,335,365,329,372,319,378,323,396,323,411,321,416,312,413,303,411,302,418,202,421,98,425,34,425"
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-2" id="dist2"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-3" id="dist3"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-4" id="dist4"
+    coords="30,426,36,444,34,465,39,489,41,509,45,529,45,546,45,563,50,598,74,604,93,607,105,612,124,612,145,612,174,613,203,608,207,558,204,492,199,421"
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-5" id="dist5"
+    coords="357,340,390,334,385,308,369,308,367,304,378,299,374,288,381,284,383,282,462,272,465,299,451,302,457,340,469,340,476,374,476,381,469,377,448,383,448,389,396,396,384,390,375,390,376,396,372,394,371,408,359,411,356,413,361,426,354,436,355,447,350,460,336,460,330,462,326,426,321,429,321,440,316,439,315,430,297,433,284,437,284,449,261,453,255,442,205,442,203,423,287,420,303,420,303,413,310,412,316,416,325,414,321,382,330,371,338,371,338,366,358,361,361,343"
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"FF69B4","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-6" id="dist6"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-7" id="dist7"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-8" id="dist8"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-9" id="dist9"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-10" id="dist10"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+    <area shape="poly" alt="" title="district-11" id="dist11"
+    coords=""
+    data-maphilight='{"strokeColor":"000000","strokeWidth":3,"fillColor":"6699ff","fillOpacity":0.6}'/>
+  </map>
+</div>
 </body>
