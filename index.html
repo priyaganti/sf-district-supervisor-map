@@ -9,16 +9,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 </head>
+<style>
+#mapper {
+  margin: auto;
+  width: 50%;
+}
+</style>
+
 <script>
 $(document).ready(function(){
   $('#distMap').maphilight();
 });
 </script>
+
 <body>
-<header>
+<div id="mapper">
   <h1>San Francisco Supervisors by District</h2>
-</header>
-<div>
   <img src="./img/districtsMap.png" useMap='#test' id="distMap" />
   <map id="test" name="test">
     <area shape="poly" alt="" title="district-1" id="dist1"
